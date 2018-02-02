@@ -11,13 +11,13 @@ export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
 
-  selectedHero: Hero;
+  // selectedHero: Hero;
 
-  newVariable = 'this is a test';
+  // newVariable = 'this is a test';
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  // onSelect(hero: Hero): void {
+  //   this.selectedHero = hero;
+  // }
 
   constructor(private heroService: HeroService) { }
 
